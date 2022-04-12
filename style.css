@@ -1,0 +1,74 @@
+.title {
+    position:relative;
+    display:flex;
+    justify-content: center;
+    width:100%;
+    background-color:rgb(77, 158, 233);
+    border-bottom: 4px solid rgb(77, 158, 233);
+
+}
+
+.favorable {
+    background-color: green;
+    border: 5px solid green;
+    border-radius: 10px
+}
+
+.moderate {
+    background-color: yellow;
+    border: 5px solid yellow;
+    border-radius: 10px
+}
+
+.severe {
+    background-color: red;
+    border: 5px solid red;
+    border-radius: 10px
+}
+
+.card-group {
+    position: relative;
+    left:380px
+}
+
+#search-butt {
+    height:40px;
+    width:80px;
+    border-radius: 8px;
+    background-color:orange;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    position: relative;
+    bottom: 2px
+}
+
+#search-input {
+    width:330px;
+    height:40px;
+    border-radius: 8px;
+    margin-left:2px
+}
+
+#city-card {
+    width:1000px;
+    position:relative;
+    left:500px;
+    bottom:70px
+}
+
+#day-group {
+    width:300px;
+    position: relative;
+    left:400px
+}
+
+#main-uv {
+    width:170px;
+    
+}
+
+#weather-icon {
+    position: absolute;
+    left: 410px;
+    top: 17px
+}
