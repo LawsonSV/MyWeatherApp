@@ -26,6 +26,8 @@ let humidTwo = document.getElementById('humid-2');
 let humidThree = document.getElementById('humid-3');
 let humidFour = document.getElementById('humid-4');
 let humidFive = document.getElementById('humid-5');
+let searchHistory = document.getElementById('search-history');
+let searchArray = []
 
 
 function searchApi() {
@@ -84,11 +86,17 @@ function searchApi() {
                     humidFive.textContent = "Humidity: " + response2.daily[4].humidity + "%";
                     document.getElementById('img-5').src = "http://openweathermap.org/img/wn/" + response2.daily[4].weather[0].icon + ".png";
 
-
+                    localStorage.setItem("search-history", citySearched);
+                    let itemSearched = localStorage.getItem("search-history");
+                    searchArray.push(itemSearched);
+                    searchHistory.append(searchArray)
+                    console.log(searchArray)
                 })
         })
         .catch(err => console.error(err))
 
 }
+
+
 
 searchApi()

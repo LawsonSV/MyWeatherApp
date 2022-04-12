@@ -72,3 +72,8 @@
     left: 410px;
     top: 17px
 }
+
+#history-box {
+    position: absolute;
+    bottom:600px
+}
