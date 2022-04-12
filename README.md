@@ -4,4 +4,4 @@
 
     Link to delpoyed page: https://lawsonsv.github.io/MyWeatherApp/
 
- ![screenshot of my site](Assets\images\2022-04-12.png)
+![_C__Users_lawso_OneDrive_Desktop_MyWeatherApp_results html_q=tucson](https://user-images.githubusercontent.com/100011983/163069362-78b896f3-9233-43c2-a58c-3b6875a3eee0.png)
